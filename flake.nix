@@ -43,6 +43,7 @@
               wasm-bindgen-cli
               just
               leptosfmt
+              wrangler
             ]
             ++ lib.optionals stdenv.hostPlatform.isLinux [ rust-jemalloc-sys-unprefixed ]
             ++ lib.optionals stdenv.hostPlatform.isDarwin [
